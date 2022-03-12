@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="../../ModuleVersions.targets" />
+	<PropertyGroup>
+		<PP_Name>NiTiS.Tests.Console</PP_Name>
+		<PP_Version>1.0.0</PP_Version>
+		<Description>Console Lib</Description>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+	<Import Project="../../PostModule.targets" />
+	<ItemGroup>
+		<ProjectReference Include="../../Libs/NiTiS.BaseLibrary/NiTiS.BaseLibrary.csproj" />
+	</ItemGroup>
+</Project> 

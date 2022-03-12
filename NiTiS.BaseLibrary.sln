@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiTiS.BaseLibrary", "Libs\NiTiS.BaseLibrary\NiTiS.BaseLibrary.csproj", "{A21B4AB4-0776-49EE-9F62-E0BA8A67815D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiTiS.Tests.Console", "Tests\NiTiS.Tests.Console\NiTiS.Tests.Console.csproj", "{94BC99CA-9DC2-4E31-B858-AC41818A2E19}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A21B4AB4-0776-49EE-9F62-E0BA8A67815D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A21B4AB4-0776-49EE-9F62-E0BA8A67815D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A21B4AB4-0776-49EE-9F62-E0BA8A67815D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A21B4AB4-0776-49EE-9F62-E0BA8A67815D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BC99CA-9DC2-4E31-B858-AC41818A2E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BC99CA-9DC2-4E31-B858-AC41818A2E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BC99CA-9DC2-4E31-B858-AC41818A2E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BC99CA-9DC2-4E31-B858-AC41818A2E19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
