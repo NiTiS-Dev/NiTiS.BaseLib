@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="$(NBT_HOME)/csharp/v1.0/init.xml" />
+	<PropertyGroup>
+		<NBT_Name>NiTiS.BaseLib</NBT_Name>
+		<NBT_Singleframe>false</NBT_Singleframe>
+		<NBT_Version>0.0.0.2</NBT_Version>
+		<NBT_Summary>
+			Put description inside
+		</NBT_Summary>
+
+		<NBT_Tabs>NiTiS</NBT_Tabs>
+		<NBT_Frameworks>net48;net6.0;netstandard2.1;netcoreapp3.1;net5.0</NBT_Frameworks>
+		<NBT_Nullable>enable</NBT_Nullable>
+	</PropertyGroup>
+	<Import Project="$(NBT_HOME)/csharp/v1.0/post.xml" />
+</Project>
